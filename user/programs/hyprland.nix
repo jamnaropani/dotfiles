@@ -41,6 +41,11 @@
         ];
       };
 
+      # Input
+      input = {
+        kb_options = "ctrl:nocaps";
+      };
+
       # Misc
       misc = {
         disable_hyprland_logo = true;
