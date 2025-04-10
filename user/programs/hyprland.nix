@@ -15,6 +15,20 @@
       # General
       general = {
         layout = "dwindle";
+
+        gaps_in = 2;
+        gaps_out = 4;
+
+        border_size = 2;
+        "col.inactive_border" = "rgb(3b4252)";
+        "col.active_border" = "rgb(8fbcbb)";
+      };
+
+      # Decoration
+      decoration = {
+        rounding = 2;
+        blur.enabled = false;
+        shadow.enabled = false;
       };
 
       # Misc
