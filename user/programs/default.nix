@@ -1,5 +1,6 @@
 {
   imports = [
+    ./eza.nix
     ./firefox.nix
     ./fuzzel.nix
     ./git.nix
