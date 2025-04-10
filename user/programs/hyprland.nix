@@ -46,6 +46,11 @@
         kb_options = "ctrl:nocaps";
       };
 
+      # Dwindle
+      dwindle = {
+        force_split = 2;
+      };
+
       # Misc
       misc = {
         disable_hyprland_logo = true;
