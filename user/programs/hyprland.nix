@@ -1,10 +1,16 @@
-{
+{pkgs, ...}: {
   # Hyprland
   wayland.windowManager.hyprland = {
     enable = true;
     settings = {
       "$mod" = "SUPER";
       "$modShift" = "$mod SHIFT";
+
+      # Environment variables
+      env = [
+        "XCURSOR_SIZE,16"
+        "XCURSOR_THEME,Bibata-Modern-Classic"
+      ];
 
       # Monitors
       monitor = [
@@ -111,4 +117,9 @@
       ];
     };
   };
+
+  # Additional packages
+  home.packages = with pkgs; [
+    bibata-cursors
+  ];
 }
