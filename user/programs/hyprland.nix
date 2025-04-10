@@ -85,6 +85,12 @@
         "$modShift, 5, movetoworkspacesilent, 5"
         "$modShift, 6, movetoworkspacesilent, 6"
 
+        # Move active window in a workspace
+        "$modShift, H, movewindow, l"
+        "$modShift, J, movewindow, d"
+        "$modShift, K, movewindow, u"
+        "$modShift, L, movewindow, r"
+
         # Move active window focus
         "$mod, H, movefocus, l"
         "$mod, J, movefocus, d"
