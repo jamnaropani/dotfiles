@@ -85,6 +85,12 @@
         "$modShift, 5, movetoworkspacesilent, 5"
         "$modShift, 6, movetoworkspacesilent, 6"
 
+        # Move active window focus
+        "$mod, H, movefocus, l"
+        "$mod, J, movefocus, d"
+        "$mod, K, movefocus, u"
+        "$mod, L, movefocus, r"
+
         # Scroll through active workspaces
         "$mod, Comma, workspace, e-1"
         "$mod, Period, workspace, e+1"
