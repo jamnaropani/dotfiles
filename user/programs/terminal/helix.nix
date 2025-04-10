@@ -15,6 +15,10 @@
         end-of-line-diagnostics = "hint";
         line-number = "relative";
         text-width = 100;
+        lsp = {
+          display-inlay-hints = true;
+          display-progress-messages = true;
+        };
       };
     };
   };
