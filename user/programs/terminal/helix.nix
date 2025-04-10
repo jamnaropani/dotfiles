@@ -9,8 +9,12 @@
       theme = "nord";
       editor = {
         auto-format = false;
+        bufferline = "multiple";
+        color-modes = true;
         cursorline = true;
+        end-of-line-diagnostics = "hint";
         line-number = "relative";
+        text-width = 100;
       };
     };
   };
