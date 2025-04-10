@@ -85,6 +85,10 @@
         "$modShift, 5, movetoworkspacesilent, 5"
         "$modShift, 6, movetoworkspacesilent, 6"
 
+        # Scroll through active workspaces
+        "$mod, Comma, workspace, e-1"
+        "$mod, Period, workspace, e+1"
+
         # Reboot / Poweroff
         "$mod, X, exec, reboot"
         "$modShift, X, exec, poweroff"
