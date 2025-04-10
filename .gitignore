@@ -1,0 +1,5 @@
+# Nix build output
+/result
+
+# Nix generated pre-commit config
+/.pre-commit-config.yaml
