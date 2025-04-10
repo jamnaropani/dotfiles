@@ -23,6 +23,7 @@
           render = true;
           character = "▏";
         };
+        gutters.layout = ["diagnostics" "spacer" "line-numbers" "spacer"];
       };
     };
   };
