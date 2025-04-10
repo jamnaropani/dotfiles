@@ -10,6 +10,7 @@ in {
     enable = true;
     settings = {
       main = {
+        pad = "4x4 center";
         font = "${font}:size=${size}:style=SemiBold";
         font-bold = "${font}:size=${size}:style=Bold";
         font-italic = "${font}:size=${size}:style=SemiBold Italic";
