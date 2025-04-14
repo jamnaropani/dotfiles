@@ -1,6 +1,6 @@
 {
   imports = [
     ./bluetooth.nix
-    ./intel.nix
+    ./amd.nix
   ];
 }

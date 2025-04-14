@@ -1,11 +1,11 @@
 {
   # Boot
   boot = {
-    kernelModules = ["kvm-intel"];
+    kernelModules = [];
     extraModulePackages = [];
     initrd = {
       kernelModules = [];
-      availableKernelModules = ["xhci_pci" "ahci" "nvme" "usbhid" "usb_storage" "sd_mod" "rtsx_pci_sdmmc"];
+      availableKernelModules = ["nvme" "xhci_pci" "ahci" "usbhid" "sd_mod"];
     };
     loader = {
       efi.canTouchEfiVariables = true;
