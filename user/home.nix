@@ -1,4 +1,4 @@
-{
+{pkgs, ...}: {
   imports = [
     ./gtk.nix
     ./programs
@@ -14,6 +14,11 @@
 
   # Let Home Manager install and manage itself
   programs.home-manager.enable = true;
+
+  # Packages
+  home.packages = with pkgs; [
+    telegram-desktop
+  ];
 
   # This value determines the Home Manager release that your
   # configuration is compatible with. This helps avoid breakage
